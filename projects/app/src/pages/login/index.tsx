@@ -90,7 +90,7 @@ const Login = () => {
           <Box w={['100%', '380px']} flex={'1 0 0'}>
             <DynamicComponent type={pageType} />
           </Box>
-          {feConfigs?.concatMd && (
+          {/*{feConfigs?.concatMd && (
             <Box
               mt={8}
               color={'primary.700'}
@@ -100,7 +100,7 @@ const Login = () => {
             >
               无法登录，点击联系
             </Box>
-          )}
+          )}*/}
         </Flex>
 
         {isOpen && <CommunityModal onClose={onClose} />}
