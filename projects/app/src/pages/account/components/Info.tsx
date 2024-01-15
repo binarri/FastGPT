@@ -296,7 +296,7 @@ const UserInfo = () => {
           </>
         )}
 
-        {feConfigs?.docUrl && (
+        {/*{feConfigs?.docUrl && (
           <Link
             href={getDocPath('/docs/intro')}
             target="_blank"
@@ -321,7 +321,7 @@ const UserInfo = () => {
               V{systemVersion}
             </Box>
           </Link>
-        )}
+        )}*/}
         {feConfigs?.chatbotUrl && (
           <Link
             href={feConfigs.chatbotUrl}

@@ -164,7 +164,7 @@ const Navbar = ({ unread }: { unread: number }) => {
           </Link>
         </Box>
       )}
-      {(feConfigs?.docUrl || feConfigs?.chatbotUrl) && (
+      {/*{(feConfigs?.docUrl || feConfigs?.chatbotUrl) && (
         <MyTooltip label={t('common.system.Use Helper')} placement={'right-end'}>
           <Link
             {...itemStyles}
@@ -192,7 +192,7 @@ const Navbar = ({ unread }: { unread: number }) => {
             <MyIcon name={'common/gitLight'} width={'22px'} height={'22px'} />
           </Link>
         </MyTooltip>
-      )}
+      )}*/}
     </Flex>
   );
 };
